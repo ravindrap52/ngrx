@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "current-directory"
+    }
+  },
+  "defaultProject": "current-directory",
+  "cli": {
+    "analytics": false
+  }
 }
