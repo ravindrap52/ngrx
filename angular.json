@@ -127,6 +127,7 @@
   },
   "defaultProject": "current-directory",
   "cli": {
+    "defaultCollection": "@ngrx/schematics",
     "analytics": false
   }
 }
