@@ -12,8 +12,8 @@ import { AppState } from '../reducers';
 })
 export class LoginComponent {
   loginForm = this.fb.group({
-    email: ['', Validators.required],
-    password: ['', Validators.required],
+    email: ['eve.holt@reqres.in', Validators.required],
+    password: ['cityslicka', Validators.required],
   });
   constructor(private fb: FormBuilder, private loginService: LoginService, private store: Store<AppState>) {}
   onSubmit(): void {

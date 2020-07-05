@@ -20,7 +20,7 @@ const routes: Routes = [
     CommonModule,
     ReactiveFormsModule,
     RouterModule.forChild(routes),
-    StoreModule.forFeature('login', fromLogin.reducers),
+    StoreModule.forFeature('login', fromLogin.loginRedcer),
   ],
   exports: [LoginComponent],
 })
